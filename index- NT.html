@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Nour | Marketing portfolio</title>
+<meta name="description" content="Regional marketing manager with 10+ years across the GCC, the UK, and Egypt. Case studies in brand building, market launches, and performance marketing.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&display=swap" rel="stylesheet">
+<style>
+:root {
+  --paper: #f2f4f7;
+  --ink: #101b2d;
+  --muted: #4c586b;
+  --signal: #2447f5;
+  --sand: #e6dcc6;
+  --line: #c9d0db;
+  --display: "Bricolage Grotesque", "Helvetica Neue", Arial, sans-serif;
+  --text: "Source Serif 4", Georgia, "Times New Roman", serif;
+}
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body {
+  margin: 0;
+  background: var(--paper);
+  color: var(--ink);
+  font-family: var(--text);
+  font-size: 1.125rem;
+  line-height: 1.65;
+}
+a { color: var(--signal); text-underline-offset: 3px; }
+a:focus-visible { outline: 3px solid var(--signal); outline-offset: 3px; }
+.wrap { max-width: 1040px; margin: 0 auto; padding: 0 24px; }
+
+header.top { padding: 28px 0; }
+header.top .wrap { display: flex; justify-content: space-between; align-items: baseline; gap: 16px; flex-wrap: wrap; }
+.name { font-family: var(--display); font-weight: 700; font-size: 1.25rem; text-decoration: none; color: var(--ink); }
+nav a { margin-left: 24px; color: var(--ink); font-family: var(--display); font-weight: 500; font-size: 1rem; }
+
+.hero { padding: 72px 0 88px; }
+.hero h1 {
+  font-family: var(--display);
+  font-weight: 700;
+  font-size: clamp(2.75rem, 9vw, 6.5rem);
+  line-height: 0.98;
+  letter-spacing: -0.03em;
+  margin: 0 0 32px;
+  max-width: 11ch;
+}
+.hero p { max-width: 36em; margin: 0; font-size: 1.25rem; color: var(--muted); }
+
+h2 { font-family: var(--display); font-weight: 700; font-size: 2rem; letter-spacing: -0.02em; margin: 0 0 32px; }
+h3 { font-family: var(--display); font-weight: 700; font-size: 1.25rem; margin: 40px 0 8px; }
+
+section.block { padding: 72px 0; border-top: 1px solid var(--line); }
+
+.case-head { margin-bottom: 40px; }
+.case-head h3 { font-size: clamp(1.75rem, 4vw, 2.75rem); line-height: 1.1; letter-spacing: -0.02em; margin: 0 0 12px; }
+.role { color: var(--muted); margin: 0; }
+
+.case-body { max-width: 40em; }
+.case-body p { margin: 0 0 16px; }
+
+.results { background: var(--sand); padding: 32px; margin: 48px 0 0; }
+.results h3 { margin-top: 0; }
+.results dl { display: grid; grid-template-columns: repeat(auto-fit, minmax(190px, 1fr)); gap: 24px 32px; margin: 0; }
+.results dt { font-family: var(--display); font-weight: 700; font-size: 1.75rem; line-height: 1.1; }
+.results dd { margin: 4px 0 0; color: var(--muted); font-size: 1rem; }
+.period { margin: 20px 0 0; font-size: 1rem; color: var(--muted); }
+
+.more { list-style: none; padding: 0; margin: 0; }
+.more li { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 8px 24px; padding: 24px 0; border-top: 1px solid var(--line); }
+.more li:last-child { border-bottom: 1px solid var(--line); }
+.more strong { font-family: var(--display); font-size: 1.25rem; }
+.more span.desc { grid-column: 1; color: var(--muted); }
+.more .status { grid-row: 1; grid-column: 2; color: var(--signal); font-family: var(--display); font-weight: 500; }
+
+.about p { max-width: 40em; margin: 0 0 16px; }
+footer { padding: 72px 0 96px; border-top: 1px solid var(--line); }
+footer p { margin: 0 0 8px; }
+footer .big { font-family: var(--display); font-weight: 700; font-size: clamp(1.5rem, 4vw, 2.25rem); }
+
+@media (max-width: 560px) {
+  nav a { margin: 0 16px 0 0; }
+  .results { padding: 24px; }
+  .more li { grid-template-columns: 1fr; }
+  .more .status { grid-row: auto; grid-column: 1; }
+}
+</style>
+</head>
+<body>
+
+<header class="top">
+  <div class="wrap">
+    <a class="name" href="#top">Nour</a>
+    <nav aria-label="Main">
+      <a href="#work">Work</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main id="top">
+  <section class="hero">
+    <div class="wrap">
+      <h1>I make unknown brands familiar.</h1>
+      <p>Regional marketing manager with more than ten years of experience across the GCC, the UK, and Egypt. I build brands, launch markets, and run performance marketing across property and automotive.</p>
+    </div>
+  </section>
+
+  <section class="block" id="work">
+    <div class="wrap">
+      <h2>Selected work</h2>
+
+      <article>
+        <div class="case-head">
+          <h3>Building dubizzle Oman from zero awareness</h3>
+          <p class="role">Regional Marketing Manager, dubizzle Group. Real estate and cars.</p>
+        </div>
+
+        <div class="case-body">
+          <h3>The challenge</h3>
+          <p>dubizzle entered Oman with a presence under the OLX Oman name, so the dubizzle name meant nothing to the market. The main competitor, OpenSooq, had around 20 years in the country. The brand had to start from nothing and win against an entrenched incumbent.</p>
+
+          <h3>The goal</h3>
+          <p>Localize a brand that came from the UAE and the wider GCC, build awareness and traffic, and make the business profitable and revenue-generating.</p>
+
+          <h3>A brand that sounds Omani</h3>
+          <p>All communication was in local Arabic, with Omani figures in every campaign, and the brand showed up where locals already were. I created a local persona for the brand, with his own personality and way of talking. It was a new, non-visual way of expressing the brand that dubizzle Group had not used before.</p>
+
+          <h3>One asset to own on the street</h3>
+          <p>A $1.5M out-of-home campaign ran in two bursts. The idea was simple: recognition rises when a brand is tied to one specific element. We tied dubizzle to cars and dominated the streets.</p>
+
+          <h3>Buzz on purpose</h3>
+          <p>I brought together Oman’s major influencers in a single campaign and positioned it as the most expensive marketing campaign in the country. The aim was for people to talk about the spend, and in doing so, learn the name.</p>
+
+          <h3>A jingle that became a trend</h3>
+          <p>A catchy, local brand jingle came with a social challenge: post a video with the track and enter a prize draw. Three major influencers sang and danced to it until it trended.</p>
+
+          <h3>Always-on performance and community</h3>
+          <p>Digital campaigns drove leads and traffic, supported by banners across the website. Social coverage of car showrooms, local real estate projects, and major national events turned our accounts into an information hub.</p>
+        </div>
+
+        <!-- Add a revenue line here once the figure is confirmed. -->
+        <div class="results">
+          <h3>Results</h3>
+          <dl>
+            <div><dt>4.2M</dt><dd>total unique users</dd></div>
+            <div><dt>176M</dt><dd>total page views</dd></div>
+            <div><dt>6M</dt><dd>monthly new visits</dd></div>
+            <div><dt>1.2M</dt><dd>new listings</dd></div>
+            <div><dt>700K</dt><dd>new inquiries generated</dd></div>
+            <div><dt>30K</dt><dd>social followers</dd></div>
+            <div><dt>4.9M</dt><dd>social content views</dd></div>
+            <div><dt>22.3K</dt><dd>social engagements</dd></div>
+          </dl>
+          <p class="period">Results over two years.</p>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <section class="block" id="more">
+    <div class="wrap">
+      <h2>More case studies</h2>
+      <ul class="more">
+        <li>
+          <strong>Wyndham Garden Hotel</strong>
+          <span class="status">Coming soon</span>
+          <span class="desc">Increasing awareness and revenue as cluster marketing manager.</span>
+        </li>
+        <li>
+          <strong>Lead generation at scale</strong>
+          <span class="status">Coming soon</span>
+          <span class="desc">Managing 26 accounts across 12 industries and 8 markets, with more than $2M in monthly ad spend.</span>
+        </li>
+        <li>
+          <strong>dubizzle Group IPO campaign</strong>
+          <span class="status">Coming soon</span>
+          <span class="desc">Marketing work on the group’s IPO.</span>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="block about" id="about">
+    <div class="wrap">
+      <h2>About</h2>
+      <p>I am a Regional Marketing Manager at dubizzle Group, based in Dubai. I oversee markets including Oman, Saudi Arabia, Jordan, and Egypt, across property and the Motors vertical.</p>
+      <p>Before dubizzle, I was Business Development Manager at CUBILLION Performance Marketing Agency, where I built strategic partnerships and drove revenue growth.</p>
+    </div>
+  </section>
+</main>
+
+<footer id="contact">
+  <div class="wrap">
+    <p class="big">Let’s talk.</p>
+    <p><a href="mailto:YOUR-EMAIL@example.com">YOUR-EMAIL@example.com</a></p>
+    <p><a href="https://www.linkedin.com/in/YOUR-LINKEDIN" rel="noopener">LinkedIn</a></p>
+  </div>
+</footer>
+
+</body>
+</html>
